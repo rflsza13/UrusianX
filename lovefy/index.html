@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/assets/logo.ico" type="image/x-icon">
+    <title>Lovefy - Web Player: Our Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="side-bar hide2">
+
+            <div class="nav">
+                <div class="nav-option transition logo-img" style="opacity: 1;">
+                    <img class="logo-img" src="./img/assets/logo.png" alt="lib icon">
+                    <a class="hide" href="#">Lovefy Music</a>
+                </div>
+
+                <div class="nav-option transition" style="opacity: 1;">
+                    <i class="fa-solid fa-house pointer home"></i>
+                    <a class="hide" href="#">Página Inicial</a>
+                </div>
+
+                <div class="nav-option transition hover">
+                    <i class="fa-solid fa-magnifying-glass pointer search"></i>
+                    <a class="hide" href="#">Pesquisa</a>
+                </div>
+            </div>
+
+            <div class="library">
+
+                <div class="option">
+                    <div class="lib-option nav-option transition hover">
+                        <img class="pointer" src="./img/assets/library_icon.png" alt="lib icon">
+                        <a class="hide" href="#">Sua Biblioteca</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus pointer transition hover"></i>
+                        <i class="fa-solid fa-arrow-right pointer transition hover hide"></i>
+                    </div>
+                </div>
+
+                <div class="lib-boxes hide">
+                    <div class="box">
+                        <p class="box-p1 pointer">Create your first playlist</p>
+                        <p class="box-p2 pointer">It's easy, we'll help you</p>
+                        <button class="badge scale transition pointer">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1 pointer">Let's find some podcasts to follow</p>
+                        <p class="box-p2 pointer">We'll keep you updated on new episodes</p>
+                        <button class="badge scale transition pointer">Browse podcasts</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="main-content">
+
+            <div class="sticky-nav-pro">
+
+                <div class="sticky-nav">
+                    <div class="left-part right-part ">
+                        <img class="bell pointer hover transition hide2" src="./img/assets/backward_icon.png"
+                            alt="Backward">
+                        <img class="bell pointer hover transition hide" src="./img/assets/forward_icon.png" alt="forward">
+
+                        <div class="logo pointer hide3 visible">
+                            <img class="logo-img" src="./img/assets/logo.png" alt="lib icon">
+                            <h3>Lovefy Music</h3>
+                        </div>
+                        <div class="hero hero2">
+                            <i class="fa-solid fa-magnifying-glass pointer hide3 visible"></i>
+                        </div>
+                    </div>
+
+                    <div class="right-part">
+                        <button class="badge pointer hide4 scale transition">Seja Premium no meu ❤️</button>
+                        <div class="bell hover pointer transition margin">
+                            <i class="fa-regular fa-bell scale"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="sticky-nav-boottom">
+                    <button class="badge all pointer">Tudo</button>
+                    <button class="badge badge3 transition pointer">Músicas</button>
+                    <button class="badge badge3 transition pointer">Podcasts</button>
+                </div>
+
+            </div>
+
+            <br>
+            <div class="cards-container">
+                <div class="card pointer">
+                    <img class="card-img" src="./img/assets/cover.png" alt="card image">
+                    <div class="font-center">
+                        <p class="card-title font-center">A Nossa Melodia</p>
+                        <p class="card-info font-center">Ariani & Rafael</p>
+                    </div>
+                </div>
+                <div class="card pointer">
+                    <p class="card-info">
+                        Algumas histórias merecem ser tocadas devagar, no tempo certo, do jeito que nasceram. <br>
+                        Esta é a uma melodia única: a canção que começa no dia em que nos conhecemos e segue por cada nota que aproximou nossos mundos. <br>
+                        Aqui estão os refrões que se repetem, as pausas que ensinaram, as conversas que viraram harmonia e as coincidências que afinaram nossos corações e conectaram nossas almas. <br>
+                        Seja bem-vinda à nossa música ❤️.    
+                    </p>
+                </div>
+            </div>
+
+            <h2 class="card-heading">Sobre os Artistas</h2>
+            <div class="cards-container">
+                <div class="card pointer">
+                    <img class="card-img" src="./img/artists/ariani.jpeg" alt="card image">
+                    <p class="card-title font-center">Ariani Ferreira da Cruz</p>
+                    <p class="card-info font-center">
+                        <span id="idadeAriani">0</span> anos - Escorpião♏
+                    </p>
+                    <p class="card-info font-justify">
+                        "Médica veterinária, forte e decidida, mas também doce e cuidadosa. <br>
+                        Linda no jeito, no sorriso e no carinho com que cuida do mundo ao redor. <br>
+                        Gosta de música, viagens, boas conversas, piadas inesperadas, filmes de heróis e de tudo que envolve vida. <br>
+                        Nessa música, ela chega como paz e calmaria, sem pressa, sem barulho, só fazendo sentido." <br>
+                    </p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/artists/rafael.jpeg" alt="card image">
+                    <p class="card-title font-center">Rafael Rodrigues de Souza</p>
+                    <p class="card-info font-center">
+                        <span id="idadeRafael">0</span> anos - Áries ♈
+                    </p>
+                   <p class="card-info font-justify">
+                        "Fiscal de loja, atento aos detalhes do dia a dia, enquanto aprende a ver a vida com mais calma. <br>
+                        Brincalhão, intenso e atento, mas tranquilo diante das voltas que o mundo dá. <br>
+                        Gosta de música, viagens, conversas profundas, piadas ruins e de sorrisos verdadeiros. <br>
+                        Nessa música, ele chega como alegria e lealdade, intenso mas com um tipo raro de paz."
+                    </p>
+                </div>
+            </div>
+
+            <h2 class="card-heading">Linha do Tempo </h2>
+            <div class="cards-container">
+                <!-- 19/11/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/19-11-25.png" alt="card image">
+                    <p class="card-title font-center">Primeiro Contato ✨</p>
+                    <p class="card-info font-center">📆 <i>Novembro 19, 2025</i></p>
+                    <p class="card-info">
+                        "Aquele momento simples que, sem aviso nenhum, mudou tudo. <br>
+                        Foi apenas uma conversa, uma mensagem, um instante quase comum — mas ali começou algo que nenhum de nós sabia explicar direito. <br>
+                        Entre palavras leves e curiosidade sincera, nasceu um começo tímido, silencioso, mas cheio de possibilidades. <br>
+                        Foi ali, nesse ponto exato, que a nossa história decidiu começar." <br>
+                    </p>
+                </div>
+
+                <!-- 26/11/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/26-11-25.png" alt="card image">
+                    <p class="card-title">Conversas Frequentes ✉️</p>
+                    <p class="card-info font-center">📆 <i>Novembro 26, 2025</i></p>
+                    <p class="card-info font-center">
+                        "Existe um instante em que a troca de palavras começa a pulsar diferente. <br>
+                        As conversas, antes raras, passaram a surgir como pequenas constelações ao longo do dia. <br>
+                        Cada mensagem carregava um brilho silencioso, e o tempo entre uma notificação e outra foi diminuindo, como se nossos mundos tivessem encontrado o mesmo compasso. <br>
+                        Assim, a frequência virou conexão... e a conexão, algo impossível de ignorar." <br>
+                    </p>
+                </div>
+
+                <!-- 02/12/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/02-12-25.png" alt="card image">
+                    <p class="card-title">Primeiro Encontro 😍</p>
+                    <p class="card-info font-center">📆 <i>Dezembro 02, 2025</i></p>
+                    <p class="card-info font-center">
+                        "O primeiro encontro… também conhecido como: <br>
+                        'Será que vai dar certo?' <br>
+                        'Será que ela vai notar que eu tô nervoso?' <br>
+                        'Será que ela vai correr quando me ver?' <br>
+                        <br>
+                        E no fim, deu tudo certo  <br>
+                        Foi o dia em que descobrimos que, ao vivo, a gente combina ainda mais. <br>
+                        E que o nervosismo valeu cada minuto." <br>
+                    </p>
+                </div>
+           
+                <!-- 07/12/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/07-12-25.png" alt="card image">
+                    <p class="card-title font-center">Conversas Profundas 📩</p>
+                    <p class="card-info font-center">📆 <i>Dezembro 07, 2025</i></p>
+                    <p class="card-info">
+                        "Existe um momento em que a conversa deixa de ser apenas palavras e começa a ser presença. <br>
+                        Foi aqui. <br>
+                        Nesse ponto da nossa história, as mensagens ganharam intensidade, profundidade e aquele calor que só aparece quando duas pessoas começam a se entender sem esforço. <br>
+                        O ritmo mudou. O coração acompanhou. <br>
+                        E cada diálogo parecia acender algo que vinha crescendo em silêncio."
+                    </p>
+                </div>
+
+                <!-- 16/12/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/16-12-25.png" alt="card image">
+                    <p class="card-title font-center">Segundo Encontro 💞</p>
+                    <p class="card-info font-center">📆 <i>Dezembro 16, 2025</i></p>
+                    <p class="card-info">
+                        "O segundo encontro carrega um encanto diferente. <br>
+                        É como se o universo perguntasse em silêncio: <br>
+                        “Vocês perceberam que isso aqui tem algo a mais?” <br>
+                        Já não havia o peso da dúvida nem o nervosismo do início - havia conforto, familiaridade e um brilho que só surge quando dois caminhos começam a se reconhecer. <br>
+                        Não foi apenas uma continuação, mas a confirmação de que o primeiro encontro não foi acaso. <br>
+                        Ali, entre gestos simples e olhares que falavam por si, nossa história deu um passo firme, com vontade de seguir adiante." <br>
+                    </p>
+                </div>
+
+                <!-- 20/12/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/20-12-25.png" alt="card image">
+                    <p class="card-title font-center">Conversas Intensas 💌</p>
+                    <p class="card-info font-center">📆 <i>Dezembro 20, 2025</i></p>
+                    <p class="card-info">
+                        "Quando as conversas ficaram intensas, o silêncio pediu licença. <br>
+                        As mensagens ficaram mais longas, as respostas mais rápidas e o 'só mais um assunto' virou regra não escrita. <br>
+                        Entre confissões, risadas e provocações sutis, o sentimento foi ganhando volume, como música que começa baixa e, quando a gente percebe, já tomou o ambiente inteiro. <br>
+                        Era intensidade disfarçada de conversa… e a gente fingindo que não estava acontecendo."
+                    </p>
+                </div>
+
+                <!-- 23/12/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/23-12-25.png" alt="card image">
+                    <p class="card-title font-center">Encontro Natalino 🎄</p>
+                    <p class="card-info font-center">📆 <i>Dezembro 23, 2025</i></p>
+                    <p class="card-info">
+                        "O terceiro encontro veio com luzes acesas, corações aquecidos e aquele clima de fim de ano que deixa tudo mais suave. <br>
+                        Entre sorrisos, conversas tranquilas e gestos simples, parecia que o Natal tinha nos colocado no mesmo ritmo, como se tudo ao redor estivesse conspirando a favor. <br>
+                        Foi um encontro com gosto de abraço demorado, de brilho nos olhos e de começo bom — desses que não fazem barulho, mas ficam. <br>
+                        Daqueles que a gente guarda com carinho, como lembrança especial, para revisitar sempre que quiser sorrir de novo." <br>
+                </div>
+
+                <!-- 31/12/25 -->
+                <div class="card pointer">
+                    <img class="card-img" src="./img/timeline/31-12-25.png" alt="card image">
+                    <p class="card-title font-center">Virada de Ano 💫</p>
+                    <p class="card-info font-center">📆 <i>Dezembro 31, 2025</i></p>
+                    <p class="card-info">
+                        "A virada do ano chegou marcando o fim de um ciclo e o começo de outro. <br>
+                        Mesmo longe, não estávamos desconectados. <br>
+                        Entre mensagens, pensamentos e desejos silenciosos, seguimos no mesmo ritmo, atravessando o ano novo juntos, ainda que em lugares diferentes. <br>
+                        Enquanto o relógio mudava e os fogos riscavam o céu, algo permanecia intacto: a conexão que não depende de distância. <br>
+                        Porque alguns laços não precisam de presença constante — só de verdade."
+                    </p>
+                </div>
+
+                <div class="card pointer" hidden>
+                    <img class="card-img" src="./img/" alt="card image">
+                    <p class="card-title font-center">O primeiro pedido 💍</p>
+                    <p class="card-info font-center">📆 <i>Março 19, 2026</i></p>
+                    <p class="card-info">
+                        "Chegamos até aqui. <br>
+                        Cada detalhe, cada conversa, cada encontro e cada sorriso nos trouxe para este momento. <br>
+                        A nossa história foi crescendo de um jeito bonito, espontâneo e cheio daquela energia boa que só aparece quando duas pessoas se encontram na hora certa. <br>
+                        Quando olho para trás e vejo a nossa caminhada: leve, sincera, divertida e cheia de coisas que só nós entendemos, e quando olho para frente, tudo faz sentido com você. <br>
+                        E neste ponto da nossa linha do tempo, algo mágico aconteceu:
+                        você disse sim. <br>
+                        E esse sim virou um marco, o começo de um novo capítulo: <br>
+                        O início oficial de nós dois."
+                    </p>
+                </div>
+            </div>
+            
+            <h2 class="card-heading">Sobre a Nossa Música </h2>
+            <div class="cards-container">
+                <div class="card pointer" style="width: 80%;">
+                    <p class="card-info">
+                        Algumas histórias não têm ponto final — só vírgulas.
+                        O que sentimos cresce, se transforma e se renova a cada dia, como se o tempo inteiro estivesse nos lembrando que ainda temos muito para viver juntos. <br>
+                        Essa música é a prova disso: um lembrete de que nosso sentimento não para no tempo. <br>
+                        Ele continua, segue, se expande… e sempre haverá mais momentos, mais capítulos, mais atualizações da nossa história. <br>
+                        Porque quando o amor é verdadeiro, ele simplesmente não acaba — ele continua contando... <br>
+                        
+                    </p>
+                </div>
+                <br>
+            </div>
+            <p class="card-info" style="text-align: center;">
+                Mais precisamente:
+            </p>
+            <div class="cards-container" style="display: flex; justify-content: center;">   
+                <div class="pointer times">
+                    <div class="circle-box">
+                        <div class="circle-wrapper">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="progress-bg" cx="40" cy="40" r="34" />
+                            <circle class="progress-bar years" cx="40" cy="40" r="34" />
+                            </svg>
+
+                            <span id="years" class="counter c-years" data-max="100">0</span>
+                        </div>
+
+                        <span class="label">Anos</span>
+                    </div>
+                    <div class="circle-box">
+                        <div class="circle-wrapper">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="progress-bg" cx="40" cy="40" r="34" />
+                            <circle class="progress-bar months" cx="40" cy="40" r="34" />
+                            </svg>
+
+                            <span id="months" class="counter c-months" data-max="12">0</span>
+                        </div>
+
+                        <span class="label">Meses</span>
+                    </div>
+
+                    <div class="circle-box">
+                        <div class="circle-wrapper">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="progress-bg" cx="40" cy="40" r="34" />
+                            <circle class="progress-bar days" cx="40" cy="40" r="34" />
+                            </svg>
+
+                            <span id="days" class="counter c-days" data-max="30">0</span>
+                        </div>
+
+                        <span class="label">Dias</span>
+                    </div>
+
+                    <div class="circle-box">
+                        <div class="circle-wrapper">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="progress-bg" cx="40" cy="40" r="34" />
+                            <circle class="progress-bar hours" cx="40" cy="40" r="34" />
+                            </svg>
+
+                            <span id="hours" class="counter c-hours" data-max="24">0</span>
+                        </div>
+
+                        <span class="label">Horas</span>
+                    </div>
+
+                    <div class="circle-box">
+                        <div class="circle-wrapper">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="progress-bg" cx="40" cy="40" r="34" />
+                            <circle class="progress-bar minutes" cx="40" cy="40" r="34" />
+                            </svg>
+
+                             <span id="minutes" class="counter c-minutes" data-max="60">0</span>
+                        </div>
+
+                        <span class="label">Minutos</span>
+                    </div>
+
+                    <div class="circle-box">
+                        <div class="circle-wrapper">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="progress-bg" cx="40" cy="40" r="34" />
+                            <circle class="progress-bar seconds" cx="40" cy="40" r="34" />
+                            </svg>
+
+                             <span id="seconds" class="counter c-seconds" data-max="60">0</span>
+                        </div>
+
+                        <span class="label">Segundos</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="card-heading">Musicas Relacionadas</h2>
+            <div class="cards-container nowrap">
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/hotel-fazenda.png" alt="card image">
+                    <p class="card-title font-center">Final de Semana no Hotel Fazenda</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/cinema.png" alt="card image">
+                    <p class="card-title font-center">Cinema ao Ar Livre</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/kart.png" alt="card image">
+                    <p class="card-title font-center">Corrida de Kart</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/pula-pula.png" alt="card image">
+                    <p class="card-title font-center">Role no Pula Pula</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/balao.png" alt="card image">
+                    <p class="card-title font-center">Passeio no Balão Mágico</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/gramado.png" alt="card image">
+                    <p class="card-title font-center">Inverno em Gramado</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/standup.png" alt="card image">
+                    <p class="card-title font-center">Show de Stand-Up</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+                <div class="card pointer">
+                    <img class="card-img" src="./img/musics/holambra.png" alt="card image">
+                    <p class="card-title font-center">Primavera em Holambra</p>
+                    <p class="card-info font-center">Lovefy Studios</p>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="hr">
+                    <hr>
+                </div>
+
+                <div class="copy-right">
+                    <p>&copy; 2025, Criado por <span>R&S Systens - UrusianX</span></p>
+                </div>
+
+            </footer>
+
+        </div>
+
+        <!--
+        <div class="music-player" hidden>
+
+            <div class="album">
+                <div class="album2">
+                    <img class="album-img pointer" src="./img/assets/small.png" alt="album">
+                    <div class="description">
+                        <p class="description1 pointer">Blinding Lights/</p>
+                        <p class="description2 pointer cursor time hide2">The Weeknd</p>
+                    </div>
+                    <div class="plush pointer cursor time hide2">
+                        <i class="fa-solid fa-plus plush-icon"></i>
+                    </div>
+                </div>
+                <i class="fa-solid fa-play pause2 hide hide3"></i>
+            </div>
+
+            <div class="player">
+                <div class="controls">
+                    <img class="pointer hide2" src="./img/assets/player_icon1.png" alt="suffle">
+                    <img class="pointer hide2" src="./img/assets/player_icon2.png" alt="backward">
+                    <img class="pause pointer scale hide2" src="./img/assets/player_icon3.png" alt="play">
+                    <img class="pointer hide2" src="./img/assets/player_icon4.png" alt="forward">
+                    <img class="loop pointer hide2" src="./img/assets/player_icon5.png" alt="loop">
+                </div>
+
+                <div class="progress-bar">
+                    <span class="current-time hide2">0:00</span>
+                    <input type="range" name="" class="play-bar pointer" min="0" max="100">
+                    <span class="current-time total-time hide2">4:09</span>
+                </div>
+            </div>
+
+            <div class="hw-controls hide2">
+                <img src="./img/assets/controls_icon1.png" alt="control1" class="control1 pointer cursor time">
+                <img src="./img/assets/controld_icon2.png" alt="control2" class="control2 pointer cursor time">
+                <img src="./img/assets/controls_icon3.png" alt="control3" class="control3 pointer cursor time">
+                <img src="./img/assets/controls_icon4.png" alt="control5" class="control4 pointer cursor time">
+                <img src="./img/assets/controls_icon5.png" alt="control5" class="control5 pointer cursor time">
+                <input type="range" name="" id="" class="volume pointer">
+                <img src="./img/assets/album_icon2.png" alt="control6" class="control6 pointer">
+                <div class="full-screen pointer">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</body>
+<script src="js/age.js"></script>
+<script src="js/time.js"></script>
+</html>
