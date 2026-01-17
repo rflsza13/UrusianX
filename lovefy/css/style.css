@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #000;
+    background-color: #121212;
     color: #fff;
     overflow: hidden; /*Hide the scroll bar*/
 }
@@ -234,8 +234,6 @@ a {
     font-size: 1.25rem;
     height: 2.2rem;
     width: 2.2rem;
-    background-color: #000;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -760,11 +758,9 @@ a {
         margin-left: 0.5rem;
         height: 2rem;
         width: 2rem;
-        background: #000;
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 50%;
         padding: 0.2rem;
 
     }
@@ -773,11 +769,8 @@ a {
         margin-top: 0.5rem;
         margin-left: 0.5rem;
         height: 2rem;
-        width: 11rem;
-        background: #000;
         display: flex;
         align-items: center;
-        border-radius: 50px;
         padding: 0.2rem;
 
     }
