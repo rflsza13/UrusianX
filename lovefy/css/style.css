@@ -30,15 +30,19 @@ body {
     padding: 5px 5px;
 }
 
-.font-center{
+.font-center {
     text-align: center;
 }
 
-pss {
-    text-align: justify;
-    hyphens: auto;
-    word-spacing: -2px;
-    letter-spacing: -0.1px;
+.font-left {
+    text-align: left;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 30px 0;
 }
 
 .times {
@@ -286,7 +290,7 @@ a {
     text-align: center;
 }
 
-.card {
+.card, .card-2 {
     width: 250px;
     height: fit-content;
     border-radius: 0.5rem;
@@ -606,6 +610,10 @@ a {
     }
 
     .card {
+        min-width: 300px;
+    }
+
+    .card-2 {
         min-width: 192px;
     }
 }
