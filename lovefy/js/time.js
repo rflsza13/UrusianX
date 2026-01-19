@@ -37,15 +37,15 @@ function updateCounter() {
     seconds %= 60;
 
     document.getElementById("years").textContent = years;
-    updateProgress(years, 100,'.years');
+    updateProgress(years, 50,'.years');
     document.getElementById("months").textContent = months;
-    updateProgress(months, 12,'.months');
+    updateProgress(months, 11,'.months');
     document.getElementById("days").textContent = days;
-    updateProgress(days, 30,'.days');
+    updateProgress(days, 29,'.days');
     document.getElementById("hours").textContent = hours;
-    updateProgress(hours, 24 ,'.hours');
+    updateProgress(hours, 23 ,'.hours');
     document.getElementById("minutes").textContent = minutes;
-    updateProgress(minutes, 60,'.minutes');
+    updateProgress(minutes, 59,'.minutes');
     document.getElementById("seconds").textContent = seconds;
     updateProgress(seconds, 60, '.seconds');
 }

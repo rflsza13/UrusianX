@@ -167,7 +167,8 @@ a {
 }
 
 .badge {
-    background-color: #fff;
+    background-color: #f6bbf6;
+    color: darkmagenta;
     border: none;
     border-radius: 100px;
     padding: 0.5rem 1rem;
@@ -235,6 +236,8 @@ a {
     height: 2.2rem;
     width: 2.2rem;
     display: flex;
+    background-color: #121212;
+    border-radius: 50%;
     align-items: center;
     justify-content: center;
     opacity: 0.6;
@@ -694,8 +697,8 @@ a {
     }
 
     .sticky-nav-boottom .all {
-        background-color: #fff;
-        color: black;
+        background-color: #f6bbf6;
+        color: darkmagenta;
     }
 
     .cards-container::-webkit-scrollbar {
@@ -758,6 +761,8 @@ a {
         margin-left: 0.5rem;
         height: 2rem;
         width: 2rem;
+        background-color: #121212;
+        border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -768,7 +773,10 @@ a {
     .logo {
         margin-top: 0.5rem;
         margin-left: 0.5rem;
+        background-color: #121212;
+        border-radius: 50px;
         height: 2rem;
+        width: 11rem;
         display: flex;
         align-items: center;
         padding: 0.2rem;
@@ -786,7 +794,7 @@ a {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .hide4 {
         display: none;
     }
