@@ -52,7 +52,7 @@ hr {
 }
 .main {
     display: flex;
-    height: 100vh;
+    height: 113vh;
 }
 
 ::-webkit-scrollbar {
@@ -181,7 +181,7 @@ a {
 .main-content {
     background-color: #121212;
     flex: 1;
-     /* height: 87.5%; */
+    height: 87.5%;
     border-radius: 0.5rem;
     overflow: auto;
     margin-top: 0.5rem;
@@ -524,7 +524,11 @@ a {
 }
 
 .footer {
-    height: 11.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 2% 0;
 }
 
 .social-media {
@@ -559,7 +563,7 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 4rem;
+    /* top: 4rem; */
     font-size: 0.8rem;
     opacity: 0.4;
 }
@@ -797,5 +801,8 @@ a {
 @media screen and (max-width: 426px) {
     .hide4 {
         display: none;
+    }
+    .gif {
+        width: 50%;
     }
 }
