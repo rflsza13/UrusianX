@@ -181,7 +181,7 @@ a {
 .main-content {
     background-color: #121212;
     flex: 1;
-    height: 87.5%;
+    /* height: 87.5%; */
     border-radius: 0.5rem;
     overflow: auto;
     margin-top: 0.5rem;
